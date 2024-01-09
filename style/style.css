@@ -2,8 +2,7 @@
     padding: 0;
     margin: 0;
 }
-.overlay{
-    
+.bgimg{
     margin-top: 50px;
     margin-right: 140px;
     margin-left: 140px;
@@ -12,9 +11,16 @@
     background-image: url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: center;
-
-    flex-shrink: 0;
     border-radius: 16px;
+    
+}
+.overlay{
+    
+    padding: 4em;
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+    height: 472px;
+
+    
     
   
 }
@@ -26,7 +32,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-top: 170px;
+    padding-top: 130px;
     
 }
 .overlay >h1{
@@ -138,6 +144,7 @@
     background-color:rgba(0,0,0,0);
     color: #FFF;
     
+    
 }
 a:hover{
     background-color: #F00;
@@ -189,6 +196,8 @@ text-transform: capitalize;
     gap: 10px;
     color: white;
     background-color: #F00;
+    border: 2px solid gray;
+    border-radius: 10%;
 }
 
 
@@ -297,7 +306,7 @@ text-transform: capitalize;
     line-height: normal;
 }
 
-.box2-h1{
+/*.box2-h1{
     color: #F00;
     font-family: Inter;
     font-size: 38px;
@@ -314,14 +323,38 @@ text-transform: capitalize;
     text-align: center;
     padding-top: 5px;
     padding-left: 130px;
+}*/
+.box2-h1{
+    text-align: center;
+    padding-left: 90px;
+    font-family: Inter;
+    font-size: 20px;
+    
+}
+.box2-p{
+    font-family: Inter;
+    font-size: 14px;
+    text-align: right;
+    padding-left: 70px;
+
 }
 
-#group96{
+.hppy{
+    margin-top: 150px;
+    margin-right: 90px;
+   
+
+    float: right;
+
+}
+
+/*#group96{
+    padding-left: 30px;
     justify-content: center;
     align-items: center;
     width: 100px;
     height: 100px;
-}
+}*/
 .func{
     margin-top: 100px;
     color: #070211;
@@ -329,6 +362,7 @@ text-transform: capitalize;
     font-size: 14px;
     font-weight: 500;
     text-align: center;
+    margin-bottom: 15px;
     
 }
 .sale{
@@ -337,6 +371,7 @@ text-transform: capitalize;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 15px;
     
 }
 .dolor{
@@ -360,10 +395,10 @@ text-transform: capitalize;
 
 }
 .box4{
-    padding-top: 50px;
+    padding-top: 170px;
    
     height: 600px;
-    width: 700px;
+    width: 1000px;
     background-image: url('../images/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-position: bottom;
@@ -378,10 +413,12 @@ text-transform: capitalize;
 }
 
 .box3{
+    
+
     background-image: url('../images/Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-position: 20%;
-    height: 400px;
+    height: 300px;
     width: 500px;
    
 }
@@ -399,7 +436,7 @@ text-transform: capitalize;
 
 }
 #container2{
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 140px;
     margin-right: 140px;
     display: flex;
@@ -419,6 +456,8 @@ text-transform: capitalize;
 .rec3-5{
     height: 350px;
     width: 300px;
+    border: 1px solid gray;
+    border-radius:5%;
     
     
 }
@@ -495,10 +534,19 @@ input[type="submit"]:hover{
     
     background-color: gray;
 }
-.fiti{
+.fiti1{
     display: inline;
-    padding-left: 200px;
+    padding-left: 500px;
     padding-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+.fiti2{
+    display: inline;
+    padding-left: 0px;
+    padding-right: 10px;
+    height: 50px;
+    width: 50px;
 }
 .uns{
     display: inline-block;
